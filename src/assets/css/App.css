@@ -1,0 +1,88 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.num-selected {
+  color: red
+}
+
+.fixed-width{
+  width: 600px;
+}
+
+.header{
+  color: rgb(254,254,83);
+  background-color: rgb(66,148,202);
+  font-size:xx-large;
+  padding-left: 10pt;
+}
+
+.num-area{
+  padding: 10pt;
+}
+
+.ticket-area{
+  background-color: lightblue;
+  padding: 10pt;
+}
+
+.ticket{
+  background-color: orange;
+  height: 100%;
+}
+
+.money-area{
+  background-color: yellow;
+  padding: 10pt;
+}
+
+.num-btn-conatiner{
+  padding: 5px;
+}
+
+.btn-warning:active {
+  background-color: #8064A2 !important;
+  color: red;
+  font-size: large;
+}
+
+.ticket-num-btn{
+  display: inline;
+  padding: 2px;
+  margin: 2px;
+}
